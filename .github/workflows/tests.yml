@@ -73,7 +73,9 @@ jobs:
           auto-activate-base: false
           activate-environment: fire-dev
           use-only-tar-bz2: true # IMPORTANT: This needs to be set for caching to work properly!
-          mamba-version: "*"
+          miniforge-variant: Mambaforge 
+          miniforge-version: latest
+          use-mamba: true
     - run: |
         conda info
         conda list
