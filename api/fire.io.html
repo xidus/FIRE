@@ -1,0 +1,325 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="dk" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>fire.io package &mdash; FIRE 1.5.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Workshop" href="../workshop/index.html" />
+    <link rel="prev" title="fire.cli package" href="fire.cli.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> FIRE
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.5.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../konfiguration.html">Konfigurationsfil</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html">Installationsvejledning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../datamodel.html">FIREs Datamodel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../for_udviklere.html">Udviklingsguide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../apps/index.html">Kommandolinjeprogrammer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tips/index.html">Tips og tricks</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">API</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="fire.html">fire package</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="fire.html#module-fire">Module contents</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="fire.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="fire.api.html">fire.api package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="fire.cli.html">fire.cli package</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">fire.io package</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../workshop/index.html">Workshop</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">FIRE</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="modules.html">API</a> &raquo;</li>
+        
+          <li><a href="fire.html">fire package</a> &raquo;</li>
+        
+      <li>fire.io package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/api/fire.io.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="fire-io-package">
+<h1>fire.io package<a class="headerlink" href="#fire-io-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-fire.io">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-fire.io" title="Permalink to this headline">¶</a></h2>
+<p>Input/output (I/O, IO)-modul til at læse og skrive datafiler i forskellige formater.</p>
+</div>
+<div class="section" id="module-fire.io.regneark">
+<span id="submodules"></span><h2>Submodules<a class="headerlink" href="#module-fire.io.regneark" title="Permalink to this headline">¶</a></h2>
+<p>I/O-modul til håndtering af regneark</p>
+<dl class="py data">
+<dt id="fire.io.regneark.MAPPER">
+<code class="sig-prename descclassname">fire.io.regneark.</code><code class="sig-name descname">MAPPER</code><em class="property"> = {1: 'MGL', 2: 'MTL'}</em><a class="headerlink" href="#fire.io.regneark.MAPPER" title="Permalink to this definition">¶</a></dt>
+<dd><p>Oversætter observationstypeid til det forkortede navn for observationstypen.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="fire.io.regneark.basisraekke">
+<span id="fire.io.regneark.basisrække"></span><code class="sig-prename descclassname">fire.io.regneark.</code><code class="sig-name descname">basisrække</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">arkdefinition</span><span class="p">:</span> <span class="n">Mapping<span class="p">[</span>str<span class="p">, </span>Union<span class="p">[</span>type<span class="p">, </span>str<span class="p">]</span><span class="p">]</span></span></em><span class="sig-paren">)</span> &#x2192; Mapping<span class="p">[</span>str<span class="p">, </span>Any<span class="p">]</span><a class="headerlink" href="#fire.io.regneark.basisraekke" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returnerer en dict-instans med arkdefinitionens nøgler
+og <cite>None</cite> som standard-værdi</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="fire.io.regneark.gaeldende_DVR90_koordinat">
+<span id="fire.io.regneark.gældende_DVR90_koordinat"></span><code class="sig-prename descclassname">fire.io.regneark.</code><code class="sig-name descname">gældende_DVR90_koordinat</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">punkt</span><span class="p">:</span> <span class="n"><a class="reference internal" href="fire.api.model.html#fire.api.model.punkttyper.Punkt" title="fire.api.model.punkttyper.Punkt">fire.api.model.punkttyper.Punkt</a></span></em><span class="sig-paren">)</span> &#x2192; Optional<span class="p">[</span><a class="reference internal" href="fire.api.model.html#fire.api.model.punkttyper.Koordinat" title="fire.api.model.punkttyper.Koordinat">fire.api.model.punkttyper.Koordinat</a><span class="p">]</span><a class="headerlink" href="#fire.io.regneark.gaeldende_DVR90_koordinat" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="fire.io.regneark.kote_data">
+<code class="sig-prename descclassname">fire.io.regneark.</code><code class="sig-name descname">kote_data</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">punkt</span><span class="p">:</span> <span class="n"><a class="reference internal" href="fire.api.model.html#fire.api.model.punkttyper.Punkt" title="fire.api.model.punkttyper.Punkt">fire.api.model.punkttyper.Punkt</a></span></em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="fire.api.model.html#fire.api.model.punkttyper.Koordinat" title="fire.api.model.punkttyper.Koordinat">fire.api.model.punkttyper.Koordinat</a><a class="headerlink" href="#fire.io.regneark.kote_data" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="fire.io.regneark.nyt_ark">
+<code class="sig-prename descclassname">fire.io.regneark.</code><code class="sig-name descname">nyt_ark</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">arkdefinition</span><span class="p">:</span> <span class="n">Mapping<span class="p">[</span>str<span class="p">, </span>Union<span class="p">[</span>type<span class="p">, </span>str<span class="p">]</span><span class="p">]</span></span></em><span class="sig-paren">)</span> &#x2192; pandas.core.frame.DataFrame<a class="headerlink" href="#fire.io.regneark.nyt_ark" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returnerer en tom pandas.dataframe med kolonner baseret på arkdefinition.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="fire.io.regneark.observations_data">
+<code class="sig-prename descclassname">fire.io.regneark.</code><code class="sig-name descname">observations_data</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">observation</span><span class="p">:</span> <span class="n">Union<span class="p">[</span><a class="reference internal" href="fire.api.model.html#fire.api.model.punkttyper.GeometriskKoteforskel" title="fire.api.model.punkttyper.GeometriskKoteforskel">fire.api.model.punkttyper.GeometriskKoteforskel</a><span class="p">, </span><a class="reference internal" href="fire.api.model.html#fire.api.model.punkttyper.TrigonometriskKoteforskel" title="fire.api.model.punkttyper.TrigonometriskKoteforskel">fire.api.model.punkttyper.TrigonometriskKoteforskel</a><span class="p">]</span></span></em><span class="sig-paren">)</span> &#x2192; dict<a class="headerlink" href="#fire.io.regneark.observations_data" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="fire.io.regneark.observationsraekke">
+<span id="fire.io.regneark.observationsrække"></span><code class="sig-prename descclassname">fire.io.regneark.</code><code class="sig-name descname">observationsrække</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">observation</span><span class="p">:</span> <span class="n">Union<span class="p">[</span><a class="reference internal" href="fire.api.model.html#fire.api.model.punkttyper.GeometriskKoteforskel" title="fire.api.model.punkttyper.GeometriskKoteforskel">fire.api.model.punkttyper.GeometriskKoteforskel</a><span class="p">, </span><a class="reference internal" href="fire.api.model.html#fire.api.model.punkttyper.TrigonometriskKoteforskel" title="fire.api.model.punkttyper.TrigonometriskKoteforskel">fire.api.model.punkttyper.TrigonometriskKoteforskel</a><span class="p">]</span></span></em><span class="sig-paren">)</span> &#x2192; dict<a class="headerlink" href="#fire.io.regneark.observationsraekke" title="Permalink to this definition">¶</a></dt>
+<dd><p>Oversætter atributter på en observationstype til en post,
+der kan bruges som række i et observationsregneark til
+et nivellement-projekt.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="fire.io.regneark.punkt_data">
+<code class="sig-prename descclassname">fire.io.regneark.</code><code class="sig-name descname">punkt_data</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">punkt</span><span class="p">:</span> <span class="n"><a class="reference internal" href="fire.api.model.html#fire.api.model.punkttyper.Punkt" title="fire.api.model.punkttyper.Punkt">fire.api.model.punkttyper.Punkt</a></span></em><span class="sig-paren">)</span> &#x2192; dict<a class="headerlink" href="#fire.io.regneark.punkt_data" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="fire.io.regneark.punktraekke">
+<span id="fire.io.regneark.punktrække"></span><code class="sig-prename descclassname">fire.io.regneark.</code><code class="sig-name descname">punktrække</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">punkt</span><span class="p">:</span> <span class="n"><a class="reference internal" href="fire.api.model.html#fire.api.model.punkttyper.Punkt" title="fire.api.model.punkttyper.Punkt">fire.api.model.punkttyper.Punkt</a></span></em><span class="sig-paren">)</span> &#x2192; dict<a class="headerlink" href="#fire.io.regneark.punktraekke" title="Permalink to this definition">¶</a></dt>
+<dd><p>Oversætter atributter på en observationstype til en post,
+der kan bruges som række i et punktoversigtsregneark til
+et nivellement-projekt.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="fire.io.regneark.skriv_data">
+<code class="sig-prename descclassname">fire.io.regneark.</code><code class="sig-name descname">skriv_data</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">uddata</span><span class="p">:</span> <span class="n">BinaryIO</span></em>, <em class="sig-param"><span class="n">faner</span><span class="p">:</span> <span class="n">Mapping<span class="p">[</span>str<span class="p">, </span>pandas.core.frame.DataFrame<span class="p">]</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#fire.io.regneark.skriv_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Skriver observationer og punkter til givet uddata.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="fire.io.regneark.til_nyt_ark">
+<code class="sig-prename descclassname">fire.io.regneark.</code><code class="sig-name descname">til_nyt_ark</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">entiteter</span><span class="p">:</span> <span class="n">list</span></em>, <em class="sig-param"><span class="n">arkdefinition</span><span class="p">:</span> <span class="n">Mapping<span class="p">[</span>str<span class="p">, </span>Union<span class="p">[</span>type<span class="p">, </span>str<span class="p">]</span><span class="p">]</span></span></em>, <em class="sig-param"><span class="n">rækkemager</span><span class="p">:</span> <span class="n">Callable</span></em>, <em class="sig-param"><span class="n">sorter_efter</span><span class="p">:</span> <span class="n">Optional<span class="p">[</span>Union<span class="p">[</span>str<span class="p">, </span>List<span class="p">[</span>str<span class="p">]</span><span class="p">]</span><span class="p">]</span></span> <span class="o">=</span> <span class="default_value">None</span></em><span class="sig-paren">)</span> &#x2192; pandas.core.frame.DataFrame<a class="headerlink" href="#fire.io.regneark.til_nyt_ark" title="Permalink to this definition">¶</a></dt>
+<dd><p>Konverterer poster af en given entitet til rækker i en <cite>pandas.DataFrame</cite> (et ark).</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="fire.io.regneark.til_nyt_ark_observationer">
+<code class="sig-prename descclassname">fire.io.regneark.</code><code class="sig-name descname">til_nyt_ark_observationer</code><span class="sig-paren">(</span><em class="sig-param">entiteter: list</em>, <em class="sig-param">*</em>, <em class="sig-param">arkdefinition: Mapping[str</em>, <em class="sig-param">Union[type</em>, <em class="sig-param">str]] = {'Fra': &lt;class 'str'&gt;</em>, <em class="sig-param">'Hvornår': 'datetime64[ns]'</em>, <em class="sig-param">'Journal': &lt;class 'str'&gt;</em>, <em class="sig-param">'Kilde': &lt;class 'str'&gt;</em>, <em class="sig-param">'Kommentar': &lt;class 'str'&gt;</em>, <em class="sig-param">'L': &lt;class 'float'&gt;</em>, <em class="sig-param">'Opst': &lt;class 'int'&gt;</em>, <em class="sig-param">'Sigt': &lt;class 'int'&gt;</em>, <em class="sig-param">'Sky': &lt;class 'int'&gt;</em>, <em class="sig-param">'Sluk': &lt;class 'str'&gt;</em>, <em class="sig-param">'Sol': &lt;class 'int'&gt;</em>, <em class="sig-param">'T': &lt;class 'float'&gt;</em>, <em class="sig-param">'Til': &lt;class 'str'&gt;</em>, <em class="sig-param">'Type': &lt;class 'str'&gt;</em>, <em class="sig-param">'Vind': &lt;class 'int'&gt;</em>, <em class="sig-param">'uuid': &lt;class 'str'&gt;</em>, <em class="sig-param">'ΔH': &lt;class 'float'&gt;</em>, <em class="sig-param">'δ': &lt;class 'float'&gt;</em>, <em class="sig-param">'σ': &lt;class 'float'&gt;}</em>, <em class="sig-param">rækkemager: Callable = &lt;function observationsrække&gt;</em>, <em class="sig-param">sorter_efter: Union[str</em>, <em class="sig-param">List[str]] = 'Hvornår'</em><span class="sig-paren">)</span> &#x2192; pandas.core.frame.DataFrame<a class="headerlink" href="#fire.io.regneark.til_nyt_ark_observationer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Konverterer observationer til rækker i en ny <cite>pandas.DataFrame</cite>.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="fire.io.regneark.til_nyt_ark_punktoversigt">
+<code class="sig-prename descclassname">fire.io.regneark.</code><code class="sig-name descname">til_nyt_ark_punktoversigt</code><span class="sig-paren">(</span><em class="sig-param">entiteter: list</em>, <em class="sig-param">*</em>, <em class="sig-param">arkdefinition: Mapping[str</em>, <em class="sig-param">Union[type</em>, <em class="sig-param">str]] = {'Fasthold': &lt;class 'str'&gt;</em>, <em class="sig-param">'Hvornår': 'datetime64[ns]'</em>, <em class="sig-param">'Kote': &lt;class 'float'&gt;</em>, <em class="sig-param">'Nord': &lt;class 'float'&gt;</em>, <em class="sig-param">'Ny kote': &lt;class 'float'&gt;</em>, <em class="sig-param">'Ny σ': &lt;class 'float'&gt;</em>, <em class="sig-param">'Opløft [mm/år]': &lt;class 'float'&gt;</em>, <em class="sig-param">'Punkt': &lt;class 'str'&gt;</em>, <em class="sig-param">'System': &lt;class 'str'&gt;</em>, <em class="sig-param">'Udelad publikation': &lt;class 'str'&gt;</em>, <em class="sig-param">'uuid': &lt;class 'str'&gt;</em>, <em class="sig-param">'Øst': &lt;class 'float'&gt;</em>, <em class="sig-param">'Δ-kote [mm]': &lt;class 'float'&gt;</em>, <em class="sig-param">'σ': &lt;class 'float'&gt;}</em>, <em class="sig-param">rækkemager: Callable = &lt;function punktrække&gt;</em>, <em class="sig-param">sorter_efter: Union[str</em>, <em class="sig-param">List[str]] = 'Punkt'</em><span class="sig-paren">)</span> &#x2192; pandas.core.frame.DataFrame<a class="headerlink" href="#fire.io.regneark.til_nyt_ark_punktoversigt" title="Permalink to this definition">¶</a></dt>
+<dd><p>Konverterer punkter til rækker i en ny <cite>pandas.DataFrame</cite>.</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../workshop/index.html" class="btn btn-neutral float-right" title="Workshop" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="fire.cli.html" class="btn btn-neutral float-left" title="fire.cli package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2019-2022 SDFI, Septima.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

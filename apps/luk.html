@@ -1,0 +1,296 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="dk" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>fire luk &mdash; FIRE 1.5.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Tips og tricks" href="../tips/index.html" />
+    <link rel="prev" title="fire gama" href="gama.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> FIRE
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.5.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../konfiguration.html">Konfigurationsfil</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html">Installationsvejledning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../datamodel.html">FIREs Datamodel</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../for_udviklere.html">Udviklingsguide</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Kommandolinjeprogrammer</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="info.html">fire info</a></li>
+<li class="toctree-l2"><a class="reference internal" href="niv.html">fire niv</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grafik.html">fire grafik</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gama.html">fire gama</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gama.html#parameterfil">Parameterfil</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">fire luk</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#fire-luk-punkt">punkt</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../tips/index.html">Tips og tricks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api/modules.html">API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../workshop/index.html">Workshop</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">FIRE</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html">Kommandolinjeprogrammer</a> &raquo;</li>
+        
+      <li>fire luk</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/apps/luk.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="fire-luk">
+<h1>fire luk<a class="headerlink" href="#fire-luk" title="Permalink to this headline">¶</a></h1>
+<p>Luk objekter i FIRE</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>fire luk <span class="o">[</span>OPTIONS<span class="o">]</span> COMMAND <span class="o">[</span>ARGS<span class="o">]</span>...
+</pre></div>
+</div>
+<div class="section" id="fire-luk-punkt">
+<h2>punkt<a class="headerlink" href="#fire-luk-punkt" title="Permalink to this headline">¶</a></h2>
+<p>Luk et punkt i FIRE databasen.</p>
+<p>Lukker et punkt, identificeret ved dets UUID, og ALLE tilhørende databaseobjekter.
+Det vil sige at punktinformationer, koordinater, observationer og så videre
+der er tilknyttet punktet VIL BLIVE LUKKET.</p>
+<p>Når først et punkt er lukket kan det ikke åbnes igen.</p>
+<blockquote>
+<div><p>BRUG DERFOR DENNE FUNKTION MED OMTANKE!</p>
+</div></blockquote>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>fire luk punkt <span class="o">[</span>OPTIONS<span class="o">]</span> UUID
+</pre></div>
+</div>
+<p class="rubric">Options</p>
+<dl class="std option">
+<dt id="cmdoption-fire-luk-punkt-sagsbehandler">
+<code class="sig-name descname">--sagsbehandler</code><code class="sig-prename descclassname"> &lt;sagsbehandler&gt;</code><a class="headerlink" href="#cmdoption-fire-luk-punkt-sagsbehandler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Angiv andet brugernavn end den aktuelt indloggede</p>
+</dd></dl>
+
+<dl class="std option">
+<dt id="cmdoption-fire-luk-punkt-db">
+<code class="sig-name descname">--db</code><code class="sig-prename descclassname"> &lt;db&gt;</code><a class="headerlink" href="#cmdoption-fire-luk-punkt-db" title="Permalink to this definition">¶</a></dt>
+<dd><p>Vælg en specifik databaseforbindelse - default_connection i fire.ini bruges hvis intet vælges.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Options</dt>
+<dd class="field-odd"><p>prod|test</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="std option">
+<dt id="cmdoption-fire-luk-punkt-m">
+<span id="cmdoption-fire-luk-punkt-monokrom"></span><code class="sig-name descname">-m</code><code class="sig-prename descclassname"></code><code class="sig-prename descclassname">, </code><code class="sig-name descname">--monokrom</code><code class="sig-prename descclassname"></code><a class="headerlink" href="#cmdoption-fire-luk-punkt-m" title="Permalink to this definition">¶</a></dt>
+<dd><p>Vis ikke farver i terminalen</p>
+</dd></dl>
+
+<dl class="std option">
+<dt id="cmdoption-fire-luk-punkt-debug">
+<code class="sig-name descname">--debug</code><code class="sig-prename descclassname"></code><a class="headerlink" href="#cmdoption-fire-luk-punkt-debug" title="Permalink to this definition">¶</a></dt>
+<dd><p>Vis debug output fra FIRE-databasen.</p>
+</dd></dl>
+
+<dl class="std option">
+<dt id="cmdoption-fire-luk-punkt-help">
+<code class="sig-name descname">--help</code><code class="sig-prename descclassname"></code><a class="headerlink" href="#cmdoption-fire-luk-punkt-help" title="Permalink to this definition">¶</a></dt>
+<dd><p>Vis denne hjælp tekst</p>
+</dd></dl>
+
+<p class="rubric">Arguments</p>
+<dl class="std option">
+<dt id="cmdoption-fire-luk-punkt-arg-UUID">
+<span id="cmdoption-fire-luk-punkt-arg-uuid"></span><code class="sig-name descname">UUID</code><code class="sig-prename descclassname"></code><a class="headerlink" href="#cmdoption-fire-luk-punkt-arg-UUID" title="Permalink to this definition">¶</a></dt>
+<dd><p>Required argument</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../tips/index.html" class="btn btn-neutral float-right" title="Tips og tricks" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="gama.html" class="btn btn-neutral float-left" title="fire gama" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2019-2022 SDFI, Septima.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
